@@ -10,5 +10,5 @@ def index():
 def find():
     videourl = request.args.get('url')
     if not videourl:
-        return {"responseMessage": "No video URL provided"}, 400
+        return {"responseMessage": "No video URL provideda"}, 400
     return get_data(videourl)
